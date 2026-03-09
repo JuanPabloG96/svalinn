@@ -8,8 +8,20 @@
       "@components/*": [
         "./src/components/*"
       ],
+      "@context/*": [
+        "./src/context/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
       "@pages/*": [
         "./src/pages/*"
+      ],
+      "@router/*": [
+        "./src/router/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
       ],
       "@styles/*": [
         "./src/styles/*"
@@ -44,6 +56,6 @@
     "noUncheckedSideEffectImports": true
   },
   "include": [
-    "src/**/*"
+    "src"
   ]
 }
